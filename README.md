@@ -12,4 +12,8 @@ docker build -t my-site .
 docker run -d -p 8080:80 --name my-container my-site
 
 
+docker login
+docker tag my-site a2nadim/my-site:latest
+docker push a2nadim/my-site:latest
+
 ```
