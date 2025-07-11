@@ -30,4 +30,7 @@ docker push a2nadim/my-site:latest
 docker run -d -p 8080:80 --name my-container a2nadim/my-site:latest
 ```
 
-## --> `http://localhost:8080/`
+## Links
+    `https://github.com/aa-nadim/docker-nginx`
+    `https://hub.docker.com/r/a2nadim/my-site`
+    `http://localhost:8080/`
